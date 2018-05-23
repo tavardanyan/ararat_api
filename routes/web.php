@@ -10,6 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () {
-    Illuminate\Support\Facades\Log::info('hello');
-});
+// Route::get('/', function () {
+//     Illuminate\Support\Facades\Log::info('hello');
+// });
+
+Route::get('/', 'AppController@indexWebPage');
