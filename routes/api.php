@@ -28,6 +28,7 @@ Route::get('error', function(){
   return response()->json(['error' => 'Invalid Token']);
 })->name('login');
 
+
 Route::post('options', 'OptionController@updateOption');
 Route::get('options', 'OptionController@getOptions');
 
