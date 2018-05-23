@@ -1,5 +1,5 @@
 <?php
- header('Access-Control-Allow-Origin : [*]');
+ header('Access-Control-Allow-Origin: *');
 header('Vary: Origin');
 
 if (PHP_SAPI != 'cli' && $_SERVER['REQUEST_METHOD']=='OPTIONS') {
