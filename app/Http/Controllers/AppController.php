@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class AppController extends Controller
 {
     public function indexPage() {
-        return response()->json(['status' => 200, 'message' => 'succcesful', 'platform' => 'new API']);
+        return response()->json(['status' => 200, 'message' => 'succcesful', 'platform' => 'new 4 API']);
     }
 
     public function indexWebPage() {
