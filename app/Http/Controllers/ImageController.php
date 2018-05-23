@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use \File;
+use \Response;
 
 class ImageController extends Controller
 {
